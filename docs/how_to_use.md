@@ -26,4 +26,4 @@ Usage:
 Example:
 
 - `./vendor/bin/openapi-generator generate --scraper components/openapi/OpenApiScraper.php components/openapi/OpenApiGenerator.php`.
-- `./vendor/bin/openapi-generator generate --scraper laravel --generator wapmorgan\\OpenApiGenerator\\Generator\\DefaultGenerator`.
+- `./vendor/bin/openapi-generator generate --scraper laravel --generator MuminovicAnel\\OpenApiGenerator\\Generator\\DefaultGenerator`.

@@ -1,7 +1,7 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Scraper\SecurityScheme;
+namespace MuminovicAnel\OpenApiGenerator\Scraper\SecurityScheme;
 
-use wapmorgan\OpenApiGenerator\InitableObject;
+use MuminovicAnel\OpenApiGenerator\InitableObject;
 
 class ApiKeySecurityScheme extends InitableObject
 {

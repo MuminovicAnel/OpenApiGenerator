@@ -1,16 +1,16 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Console;
+namespace MuminovicAnel\OpenApiGenerator\Console;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Formatter\OutputFormatterStyle;
 use Symfony\Component\Console\Helper\FormatterHelper;
 use Symfony\Component\Console\Helper\ProgressBar;
 use Symfony\Component\Console\Output\OutputInterface;
-use wapmorgan\OpenApiGenerator\ErrorableObject;
-use wapmorgan\OpenApiGenerator\Generator\DefaultGenerator;
-use wapmorgan\OpenApiGenerator\Scraper\Endpoint;
-use wapmorgan\OpenApiGenerator\Scraper\Specification;
-use wapmorgan\OpenApiGenerator\ScraperSkeleton;
+use MuminovicAnel\OpenApiGenerator\ErrorableObject;
+use MuminovicAnel\OpenApiGenerator\Generator\DefaultGenerator;
+use MuminovicAnel\OpenApiGenerator\Scraper\Endpoint;
+use MuminovicAnel\OpenApiGenerator\Scraper\Specification;
+use MuminovicAnel\OpenApiGenerator\ScraperSkeleton;
 
 abstract class BasicCommand extends Command
 {

@@ -1,13 +1,13 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Integration;
+namespace MuminovicAnel\OpenApiGenerator\Integration;
 
 use ReflectionMethod;
-use wapmorgan\OpenApiGenerator\ReflectionsCollection;
-use wapmorgan\OpenApiGenerator\Scraper\Endpoint;
-use wapmorgan\OpenApiGenerator\Scraper\Server;
-use wapmorgan\OpenApiGenerator\Scraper\Specification;
-use wapmorgan\OpenApiGenerator\Scraper\Tag;
-use wapmorgan\OpenApiGenerator\ScraperSkeleton;
+use MuminovicAnel\OpenApiGenerator\ReflectionsCollection;
+use MuminovicAnel\OpenApiGenerator\Scraper\Endpoint;
+use MuminovicAnel\OpenApiGenerator\Scraper\Server;
+use MuminovicAnel\OpenApiGenerator\Scraper\Specification;
+use MuminovicAnel\OpenApiGenerator\Scraper\Tag;
+use MuminovicAnel\OpenApiGenerator\ScraperSkeleton;
 use Yii;
 use yii\web\Controller;
 

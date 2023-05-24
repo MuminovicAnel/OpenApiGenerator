@@ -1,8 +1,8 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Generator;
+namespace MuminovicAnel\OpenApiGenerator\Generator;
 
 use OpenApi\Annotations\OpenApi;
-use wapmorgan\OpenApiGenerator\InitableObject;
+use MuminovicAnel\OpenApiGenerator\InitableObject;
 
 class GeneratorResultSpecification extends InitableObject
 {

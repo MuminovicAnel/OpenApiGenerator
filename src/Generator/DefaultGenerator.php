@@ -1,5 +1,5 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Generator;
+namespace MuminovicAnel\OpenApiGenerator\Generator;
 
 use Exception;
 use OpenApi\Annotations\Components;
@@ -14,15 +14,15 @@ use OpenApi\Annotations\Tag;
 use phpDocumentor\Reflection\DocBlock\Tags\InvalidTag;
 use phpDocumentor\Reflection\DocBlockFactory;
 use ReflectionException;
-use wapmorgan\OpenApiGenerator\ErrorableObject;
-use wapmorgan\OpenApiGenerator\ReflectionsCollection;
-use wapmorgan\OpenApiGenerator\Scraper\Endpoint;
-use wapmorgan\OpenApiGenerator\Scraper\SecurityScheme\ApiKeySecurityScheme;
-use wapmorgan\OpenApiGenerator\Scraper\SecurityScheme\HttpSecurityScheme;
-use wapmorgan\OpenApiGenerator\Scraper\SecurityScheme\OAuth2SecurityScheme;
-use wapmorgan\OpenApiGenerator\Scraper\SecurityScheme\OpenIdConnectSecurityScheme;
-use wapmorgan\OpenApiGenerator\Scraper\Specification;
-use wapmorgan\OpenApiGenerator\ScraperSkeleton;
+use MuminovicAnel\OpenApiGenerator\ErrorableObject;
+use MuminovicAnel\OpenApiGenerator\ReflectionsCollection;
+use MuminovicAnel\OpenApiGenerator\Scraper\Endpoint;
+use MuminovicAnel\OpenApiGenerator\Scraper\SecurityScheme\ApiKeySecurityScheme;
+use MuminovicAnel\OpenApiGenerator\Scraper\SecurityScheme\HttpSecurityScheme;
+use MuminovicAnel\OpenApiGenerator\Scraper\SecurityScheme\OAuth2SecurityScheme;
+use MuminovicAnel\OpenApiGenerator\Scraper\SecurityScheme\OpenIdConnectSecurityScheme;
+use MuminovicAnel\OpenApiGenerator\Scraper\Specification;
+use MuminovicAnel\OpenApiGenerator\ScraperSkeleton;
 
 class DefaultGenerator extends ErrorableObject
 {
@@ -122,7 +122,7 @@ class DefaultGenerator extends ErrorableObject
     }
 
     /**
-     * @param \wapmorgan\OpenApiGenerator\ScraperSkeleton $scraper
+     * @param \MuminovicAnel\OpenApiGenerator\ScraperSkeleton $scraper
      * @return GeneratorResultSpecification[]
      * @throws \ReflectionException
      */
@@ -291,7 +291,7 @@ class DefaultGenerator extends ErrorableObject
     }
 
     /**
-     * @param \wapmorgan\OpenApiGenerator\Scraper\Specification $specification
+     * @param \MuminovicAnel\OpenApiGenerator\Scraper\Specification $specification
      * @return OpenApi
      * @throws ReflectionException
      */

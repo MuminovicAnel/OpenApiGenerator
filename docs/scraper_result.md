@@ -1,9 +1,9 @@
 **What result scraper should return**
 
-You should pass a `wapmorgan\OpenApiGenerator\Scraper\DefaultScraper` instance in Generator, which should return a
+You should pass a `MuminovicAnel\OpenApiGenerator\Scraper\DefaultScraper` instance in Generator, which should return a
  `Result` in `scrape()` method.
 
-All following class names are in `wapmorgan\OpenApiGenerator` namespace.
+All following class names are in `MuminovicAnel\OpenApiGenerator` namespace.
 
 Properties of `Scraper\Result\Result`:
 - `Scraper\Result\Specification[]` **$specifications** - list of specifications for
@@ -28,7 +28,7 @@ Basically, you can only fill `$endpoints` with `Endpoint` instances. It has foll
     This callback will be scanned and used to generate:
     1. List of endpoint parameters
     2. All possible resulting values
-- `string|null $resultWrapper` - class inheriting `\wapmorgan\OpenApiGenerator\Scraper\PathResultWrapper`, 
+- `string|null $resultWrapper` - class inheriting `\MuminovicAnel\OpenApiGenerator\Scraper\PathResultWrapper`, 
 which will be used as endpoint result wrapper.
 - `string|object|null $result` - Pointer to another type that is the real result of action. Can be an object,
 which will be described as usual complex type (class).

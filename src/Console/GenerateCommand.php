@@ -1,5 +1,5 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Console;
+namespace MuminovicAnel\OpenApiGenerator\Console;
 
 use OpenApi\Annotations\Operation;
 use OpenApi\Annotations\Parameter;
@@ -14,9 +14,9 @@ use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
-use wapmorgan\OpenApiGenerator\Generator\DefaultGenerator;
-use wapmorgan\OpenApiGenerator\Generator\GeneratorResultSpecification;
-use wapmorgan\OpenApiGenerator\ScraperSkeleton;
+use MuminovicAnel\OpenApiGenerator\Generator\DefaultGenerator;
+use MuminovicAnel\OpenApiGenerator\Generator\GeneratorResultSpecification;
+use MuminovicAnel\OpenApiGenerator\ScraperSkeleton;
 
 class GenerateCommand extends BasicCommand
 {

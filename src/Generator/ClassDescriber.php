@@ -1,5 +1,5 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Generator;
+namespace MuminovicAnel\OpenApiGenerator\Generator;
 
 use OpenApi\Annotations\Property as PropertyAnnotation;
 use OpenApi\Annotations\Schema;
@@ -10,8 +10,8 @@ use phpDocumentor\Reflection\DocBlock\Tags\Var_;
 use ReflectionClass;
 use ReflectionObject;
 use ReflectionProperty;
-use wapmorgan\OpenApiGenerator\ErrorableObject;
-use wapmorgan\OpenApiGenerator\ReflectionsCollection;
+use MuminovicAnel\OpenApiGenerator\ErrorableObject;
+use MuminovicAnel\OpenApiGenerator\ReflectionsCollection;
 
 class ClassDescriber
 {

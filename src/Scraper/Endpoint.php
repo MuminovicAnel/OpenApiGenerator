@@ -1,7 +1,7 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Scraper;
+namespace MuminovicAnel\OpenApiGenerator\Scraper;
 
-use wapmorgan\OpenApiGenerator\InitableObject;
+use MuminovicAnel\OpenApiGenerator\InitableObject;
 
 class Endpoint extends InitableObject
 {

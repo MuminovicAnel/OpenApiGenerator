@@ -9,7 +9,7 @@ install-openapi-generator:
 	docker run --rm --interactive --tty --user="$(id -u):$(id -g)" --volume /tmp/:/tmp/cache --volume $PWD:/app \
 		composer:2.2.4 \
 		composer require --prefer-source --dev --ignore-platform-req php --ignore-platform-req ext-intl \
-		"wapmorgan/openapi-generator"
+		"MuminovicAnel/openapi-generator"
 
 test-xdebug:
 	docker run --interactive --rm --tty --user="$(id -u):$(id -g)" --volume $(ROOT):/app \

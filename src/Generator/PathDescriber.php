@@ -1,5 +1,5 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Generator;
+namespace MuminovicAnel\OpenApiGenerator\Generator;
 
 use OpenApi\Annotations\ExternalDocumentation;
 use OpenApi\Annotations\MediaType;
@@ -20,8 +20,8 @@ use ReflectionException;
 use ReflectionFunctionAbstract;
 use ReflectionMethod;
 use ReflectionParameter;
-use wapmorgan\OpenApiGenerator\ErrorableObject;
-use wapmorgan\OpenApiGenerator\Scraper\PathResultWrapper;
+use MuminovicAnel\OpenApiGenerator\ErrorableObject;
+use MuminovicAnel\OpenApiGenerator\Scraper\PathResultWrapper;
 
 use const OpenApi\UNDEFINED;
 

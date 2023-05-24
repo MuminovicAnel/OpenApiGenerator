@@ -1,13 +1,13 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Integration;
+namespace MuminovicAnel\OpenApiGenerator\Integration;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Route;
-use wapmorgan\OpenApiGenerator\Extractor\LaravelFormRequestExtractor;
-use wapmorgan\OpenApiGenerator\Scraper\Endpoint;
-use wapmorgan\OpenApiGenerator\Scraper\Server;
-use wapmorgan\OpenApiGenerator\Scraper\Specification;
-use wapmorgan\OpenApiGenerator\ScraperSkeleton;
+use MuminovicAnel\OpenApiGenerator\Extractor\LaravelFormRequestExtractor;
+use MuminovicAnel\OpenApiGenerator\Scraper\Endpoint;
+use MuminovicAnel\OpenApiGenerator\Scraper\Server;
+use MuminovicAnel\OpenApiGenerator\Scraper\Specification;
+use MuminovicAnel\OpenApiGenerator\ScraperSkeleton;
 
 class CustomCodeScraper extends ScraperSkeleton
 {

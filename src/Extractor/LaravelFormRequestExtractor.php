@@ -1,5 +1,5 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Extractor;
+namespace MuminovicAnel\OpenApiGenerator\Extractor;
 
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rules\In;
@@ -7,7 +7,7 @@ use OpenApi\Annotations\Items;
 use OpenApi\Annotations\Parameter;
 use OpenApi\Annotations\Schema;
 use OpenApi\Generator;
-use wapmorgan\OpenApiGenerator\ReflectionsCollection;
+use MuminovicAnel\OpenApiGenerator\ReflectionsCollection;
 
 class LaravelFormRequestExtractor extends ExtractorSkeleton
 {

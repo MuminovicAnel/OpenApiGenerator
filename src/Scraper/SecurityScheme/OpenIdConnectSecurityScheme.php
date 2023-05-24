@@ -1,7 +1,7 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Scraper\SecurityScheme;
+namespace MuminovicAnel\OpenApiGenerator\Scraper\SecurityScheme;
 
-class OpenIdConnectSecurityScheme extends \wapmorgan\OpenApiGenerator\InitableObject
+class OpenIdConnectSecurityScheme extends \MuminovicAnel\OpenApiGenerator\InitableObject
 {
     /**
      * @var string ID of security scheme

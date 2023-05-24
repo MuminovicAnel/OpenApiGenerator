@@ -1,8 +1,8 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Scraper;
+namespace MuminovicAnel\OpenApiGenerator\Scraper;
 
-use wapmorgan\OpenApiGenerator\InitableObject;
-use wapmorgan\OpenApiGenerator\Scraper\SecurityScheme\ApiKeySecurityScheme;
+use MuminovicAnel\OpenApiGenerator\InitableObject;
+use MuminovicAnel\OpenApiGenerator\Scraper\SecurityScheme\ApiKeySecurityScheme;
 
 class Specification extends InitableObject
 {

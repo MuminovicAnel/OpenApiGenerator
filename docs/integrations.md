@@ -8,7 +8,7 @@
 
 ## Yii2
 
-- A scraper - [`\wapmorgan\OpenApiGenerator\Integration\Yii2CodeScraper`](../src/Integration/Yii2CodeScraper.php)
+- A scraper - [`\MuminovicAnel\OpenApiGenerator\Integration\Yii2CodeScraper`](../src/Integration/Yii2CodeScraper.php)
 
 Will be parsed all application and modules controllers for inline and external actions:
 
@@ -24,8 +24,8 @@ Options:
 
 ## Slim
 
-- A scraper - [`\wapmorgan\OpenApiGenerator\Integration\SlimCodeScraper`](../src/Integration/SlimCodeScraper.php)
+- A scraper - [`\MuminovicAnel\OpenApiGenerator\Integration\SlimCodeScraper`](../src/Integration/SlimCodeScraper.php)
 
 ## Laravel
 
-- A scraper - [`\wapmorgan\OpenApiGenerator\Integration\LaravelCodeScraper`](../src/Integration/LaravelCodeScraper.php)
+- A scraper - [`\MuminovicAnel\OpenApiGenerator\Integration\LaravelCodeScraper`](../src/Integration/LaravelCodeScraper.php)

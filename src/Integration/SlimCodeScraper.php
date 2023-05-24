@@ -1,15 +1,15 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Integration;
+namespace MuminovicAnel\OpenApiGenerator\Integration;
 
 use App\Application\Actions\Action;
 use Slim\App;
-use wapmorgan\OpenApiGenerator\ReflectionsCollection;
-use wapmorgan\OpenApiGenerator\Scraper\Endpoint;
-use wapmorgan\OpenApiGenerator\Scraper\PathResultWrapper;
-use wapmorgan\OpenApiGenerator\Scraper\Result;
-use wapmorgan\OpenApiGenerator\Scraper\Server;
-use wapmorgan\OpenApiGenerator\Scraper\Specification;
-use wapmorgan\OpenApiGenerator\ScraperSkeleton;
+use MuminovicAnel\OpenApiGenerator\ReflectionsCollection;
+use MuminovicAnel\OpenApiGenerator\Scraper\Endpoint;
+use MuminovicAnel\OpenApiGenerator\Scraper\PathResultWrapper;
+use MuminovicAnel\OpenApiGenerator\Scraper\Result;
+use MuminovicAnel\OpenApiGenerator\Scraper\Server;
+use MuminovicAnel\OpenApiGenerator\Scraper\Specification;
+use MuminovicAnel\OpenApiGenerator\ScraperSkeleton;
 
 abstract class SlimCodeScraper extends ScraperSkeleton
 {

@@ -1,5 +1,5 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Generator;
+namespace MuminovicAnel\OpenApiGenerator\Generator;
 
 use OpenApi\Annotations\AbstractAnnotation;
 use OpenApi\Annotations\Items;
@@ -7,7 +7,7 @@ use OpenApi\Annotations\Parameter;
 use OpenApi\Annotations\Property;
 use OpenApi\Annotations\Schema;
 use ReflectionException;
-use wapmorgan\OpenApiGenerator\ReflectionsCollection;
+use MuminovicAnel\OpenApiGenerator\ReflectionsCollection;
 use const OpenApi\Annotations\UNDEFINED;
 
 class TypeDescriber

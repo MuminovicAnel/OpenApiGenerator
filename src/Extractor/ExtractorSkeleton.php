@@ -1,9 +1,9 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Extractor;
+namespace MuminovicAnel\OpenApiGenerator\Extractor;
 
-use wapmorgan\OpenApiGenerator\Generator\DefaultGenerator;
+use MuminovicAnel\OpenApiGenerator\Generator\DefaultGenerator;
 
-abstract class ExtractorSkeleton extends \wapmorgan\OpenApiGenerator\ErrorableObject
+abstract class ExtractorSkeleton extends \MuminovicAnel\OpenApiGenerator\ErrorableObject
 {
     /** @var DefaultGenerator */
     protected DefaultGenerator $generator;

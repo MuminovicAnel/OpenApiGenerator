@@ -1,14 +1,14 @@
 <?php
-namespace wapmorgan\OpenApiGenerator;
+namespace MuminovicAnel\OpenApiGenerator;
 
-use wapmorgan\OpenApiGenerator\Generator\ClassDescriber;
-use wapmorgan\OpenApiGenerator\Integration\LaravelCodeScraper;
-use wapmorgan\OpenApiGenerator\Integration\SlimCodeScraper;
-use wapmorgan\OpenApiGenerator\Integration\Yii2CodeScraper;
-use wapmorgan\OpenApiGenerator\Scraper\PathResultWrapper;
-use wapmorgan\OpenApiGenerator\Scraper\Result;
-use wapmorgan\OpenApiGenerator\Scraper\SecurityScheme\ApiKeySecurityScheme;
-use wapmorgan\OpenApiGenerator\Scraper\Specification;
+use MuminovicAnel\OpenApiGenerator\Generator\ClassDescriber;
+use MuminovicAnel\OpenApiGenerator\Integration\LaravelCodeScraper;
+use MuminovicAnel\OpenApiGenerator\Integration\SlimCodeScraper;
+use MuminovicAnel\OpenApiGenerator\Integration\Yii2CodeScraper;
+use MuminovicAnel\OpenApiGenerator\Scraper\PathResultWrapper;
+use MuminovicAnel\OpenApiGenerator\Scraper\Result;
+use MuminovicAnel\OpenApiGenerator\Scraper\SecurityScheme\ApiKeySecurityScheme;
+use MuminovicAnel\OpenApiGenerator\Scraper\Specification;
 
 abstract class ScraperSkeleton extends ErrorableObject
 {

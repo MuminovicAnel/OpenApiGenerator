@@ -1,7 +1,7 @@
 <?php
-namespace wapmorgan\OpenApiGenerator\Scraper\SecurityScheme;
+namespace MuminovicAnel\OpenApiGenerator\Scraper\SecurityScheme;
 
-class HttpSecurityScheme extends \wapmorgan\OpenApiGenerator\InitableObject
+class HttpSecurityScheme extends \MuminovicAnel\OpenApiGenerator\InitableObject
 {
     /**
      * @var string ID of security scheme

@@ -1,12 +1,12 @@
 {
-    "name": "wapmorgan/openapi-generator",
+    "name": "MuminovicAnel/openapi-generator",
     "keywords": ["swagger", "openapi", "openapi-generator", "swagger-generator", "api", "documentation"],
     "description": "OpenApi configuration generator directly from PHP code (PhpDoc, functions signature and type hints) and projects (for yii2, slim, laravel). Can be used with a large monolithic backend to maintain big API documentation",
     "license": "MIT",
     "authors": [
         {
-            "name": "wapmorgan",
-            "email": "wapmorgan@gmail.com",
+            "name": "MuminovicAnel",
+            "email": "MuminovicAnel@gmail.com",
             "role": "developer"
         }
     ],
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "wapmorgan\\OpenApiGenerator\\": "src/"
+            "MuminovicAnel\\OpenApiGenerator\\": "src/"
         }
     }
 }
